@@ -1,0 +1,48 @@
+.otz{
+    display: block;
+    margin-top: 350px;
+
+
+    &__clients{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 1;
+        text-transform: uppercase;
+        text-align: center;
+        color: #0d0d0d;
+    }
+
+    &__img-text{
+        margin-top: 60px ;
+        display: flex;
+        justify-content: space-between;
+
+        &__foto{
+
+            width: 169px;
+            height: 169px;
+            margin-right: 61px;
+        }
+        &__opis{
+            h4{
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 1;
+                color: #0d0d0d;
+            }
+            h6{
+                font-weight: 500;
+                font-size: 14px;
+                color: #646464;
+            }
+            &__descr{
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 1.5;
+                color: #0d0d0d;
+            }
+        }
+    }
+
+
+}

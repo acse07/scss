@@ -17,12 +17,16 @@
         font-weight: 500;
         line-height: 12px; 
         text-align: center;
+
+        margin-bottom: 10px;
         span{
             display: block;
             font-size: 18px;
+            margin-top: 7px;
 
         }
         
+
     }
     &__phone {
         display: block;
@@ -33,7 +37,21 @@
         font-style: normal;
         font-weight: 700;
         line-height: 18px; 
+        height: 19px;
+        width: 190px;
+
+        &:hover
+        {
+            color: #FFF;
+            text-decoration: none;
+        }
     }
+    &__contacts{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    
 
 }
  

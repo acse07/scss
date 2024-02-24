@@ -1,7 +1,87 @@
+*{
+    font-family: var(MuseoModerno);
+}
+
+
+
+
 .container{
     max-width: 950px;
     margin: 0 auto;
+    position:relative;
 }
+
+section{
+    width: 1250px;
+    height: 473px;
+    .zagol{
+        display: block;
+        text-align: center;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 1;
+        text-align: center;
+        color: #0d0d0d;
+        margin-top: 73px;
+        margin-bottom: 60px;
+        text-transform: uppercase;
+    }
+    .first{
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 30px;
+        img{
+            background-color: white;
+        }
+        .heard{
+            animation-name: heardbit;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+            animation-iteration-count:infinite;
+            &:hover{
+                animation-play-state: paused;
+            }
+        }
+
+    }
+    .sec-text{
+        display: flex;
+        justify-content: space-around
+        ;.title{
+            font-weight: 700;
+            font-size: 18px;
+            text-align: center;
+            color: #0d0d0d;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+    }
+    .there-text{
+        display:flex;
+        justify-content: space-around
+        ;.descr{
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 1.28571;
+            text-align: center;
+            color: #0d0d0d;
+            
+            width: 269px;
+            height: 91px
+            ;span{
+                color: red;
+                text-decoration: underline
+            }
+        }
+
+        
+    }
+
+
+}
+
+
  
 
 
@@ -9,3 +89,27 @@
 @import "../base/_promo.scss";
 @import "../base/_header.scss";
 @import "../base/_button.scss";
+@import "../base/_consultation.scss";
+@import "../base/_forms.scss";
+@import "../base/_carousel.scss";
+@import "../base/_catalog.scss";
+@import "../base/_otz.scss";
+@import "../base/_footer.scss";
+@import "../base/_form.scss";
+@import "../base/pageup.scss";
+@import "../base/animation.scss";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

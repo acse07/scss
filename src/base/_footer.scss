@@ -1,0 +1,54 @@
+.end{
+    height: 630px;
+    padding-top: 500px;
+   &__info{
+    position: absolute;
+    top: 4345px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 270px;
+    background-color: #c70101;; 
+    padding: 50px 68px 60px 68px;
+   
+   }
+    address{
+        margin-bottom: 36px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1;
+        text-align: center;
+        color: #fff;
+        text-align: center; 
+    }
+    .end__phone{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 38px;
+        display: block;
+        :hover{
+            color: white;
+        }
+    }
+    .end__social-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 52px;
+        height: 52px;
+        border: 2px solid white;
+        border-radius: 100%;
+        margin: 0 15px;
+        img{
+            height: 27px;
+        }
+
+    }
+    .end__social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

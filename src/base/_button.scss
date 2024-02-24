@@ -1,12 +1,50 @@
 .button{
-    color: #FFF;
+  
     text-align: center;
-    
+    margin-top: 5px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     text-transform: uppercase;
-    border: none;
-    fill: #C70101;  
+    border: none;  
+    color:white;
+    background-color: #C70101;
+    border-radius: 5px;
+    height: 30px;
+    width: 125px;
+    display: block;
+    &_main{
+        width: 303px;
+        height: 54px;
+        border-radius: 5px;
+        background-color: #C70101;
+        font-weight: 500;
+        font-size: 16px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+        width: 300px;
+        height: 50px;
+        display: block;
+        margin-top: 60px;
+    }
+    &_submit{
+        
+        height: 55px;
+        width: 100%;
+        background-color: #C70101;
+        font-size: 16px;
+        
+
+    
+    }
+    &_mini{
+        color: white;
+        width: 135px;
+        height: 44px;
+        font-size: 14px;
+    }
+
+
 }
